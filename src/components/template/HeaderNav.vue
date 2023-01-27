@@ -71,4 +71,6 @@ img {
 .navbar-toggler-icon {
     background-color: white;
 }
+
+
 </style>

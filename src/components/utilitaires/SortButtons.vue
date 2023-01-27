@@ -9,9 +9,6 @@ export default {
     name: 'SortButtons',
     data() {
         return {
-            title: null,
-            date: null,
-            rate: null,
             sortedbytitle: false,
             sortedbydate: false,
             sortedbyvote: false
