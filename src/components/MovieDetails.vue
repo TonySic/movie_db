@@ -14,6 +14,7 @@
                     <p class="card-text mt-3"><b>Date de sortie :</b> {{ movie.release_date }}</p>
                     <p class="card-text mt-3"><b>Pays d'origine :</b> {{ movie.original_country }}</p>
                     <p class="card-text mt-3"><b>Titre d'origine :</b> {{ movie.original_title }}</p>
+                    <p class="card-text mt-3"><b>Bande-annonce :</b></p> 
                 </div>
             </div>
         </div>

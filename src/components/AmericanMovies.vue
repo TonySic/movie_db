@@ -1,18 +1,18 @@
 <template>
   <h1 class="font-weight-light">Les films de l'oncle SAM</h1>
-  <button type="button" class="btn btn-dark m-2">Trier par titre</button>
-  <button type="button" class="btn btn-dark m-2">Trier par date de sortie</button>
-  <button type="button" class="btn btn-dark m-2">Trier par note</button>
+  <SortButtons :movies="movies" @sort-movies="sortmovies" />
   <MoviesList v-bind:movies="movies" />
 </template>
 
 <script>
 import axios from 'axios'
 import MoviesList from './utilitaires/MoviesList.vue'
+import SortButtons from './utilitaires/SortButtons.vue'
 export default {
   name: 'App',
   components: {
     MoviesList,
+    SortButtons,
   },
   data() {
     return {
