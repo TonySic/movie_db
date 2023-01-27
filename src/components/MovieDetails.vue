@@ -45,3 +45,9 @@ export default {
 
 }
 </script>
+
+<style>
+.row {
+    font-family: Dosis;
+}
+</style>

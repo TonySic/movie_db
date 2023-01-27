@@ -37,4 +37,8 @@ export default {
     text-align: center;
     color: black;
 }
+
+h1 {
+    font-family: Dosis;
+}
 </style>

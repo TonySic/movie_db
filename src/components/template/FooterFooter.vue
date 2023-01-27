@@ -21,6 +21,8 @@ export default { name: 'FooterFooter' }
 <style>
 footer {
     background-color: black;
-    color: #ff741d !important
+    color: #ff741d !important;
+    font-family: Dosis;
+
 }
 </style>

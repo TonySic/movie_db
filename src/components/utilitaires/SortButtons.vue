@@ -129,3 +129,9 @@ export default {
 
 }
 </script>
+
+<style>
+.btn {
+    font-family: Dosis;
+}
+</style>

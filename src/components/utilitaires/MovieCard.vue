@@ -10,6 +10,7 @@
             <h6 class="card-title fst-italic fw-bold"><i class="fa-solid fa-star"></i> {{
                 movie.vote_average
             }}/10</h6>
+            <p class="card-text">{{ movie.release_date }}</p>
         </div>
     </div>
 </template>
@@ -25,3 +26,9 @@ export default {
     }
 }
 </script>
+
+<style>
+.card {
+    font-family: Dosis;
+}
+</style>

@@ -57,6 +57,7 @@ export default {
 .navbar {
     z-index: 4;
     background-color: black;
+    font-family: Dosis;
 }
 
 nav a {
