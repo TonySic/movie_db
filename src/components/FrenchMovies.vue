@@ -1,5 +1,5 @@
 <template>
-    <h1 class="font-weight-light">Les films du pays du fromage</h1>
+    <h1 class="font-weight-light">Les films français</h1>
     <SortButtons :movies="movies" @sort-movies="sortmovies" />
     <MoviesList v-bind:movies="movies" />
 </template>
